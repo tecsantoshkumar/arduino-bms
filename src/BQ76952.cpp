@@ -1,9 +1,10 @@
 /*
-* Description :   Interface to BQ76952 BMS IC (by Texas Instruments) for Arduino platform.
-* Author      :   James Fotherby forked from pranjal-joshi/BQ76952Lib
-* Date        :   23/11/2024
-* License     :   MIT
-* This code is published as open source software. Feel free to share/modify.
+* Description :   Custom BMS firmware for the Arduino platform
+* Author      :   Santosh Kumar
+* Date        :   09/10/2026
+* This code is developed for the BMS project using Arduino IDE.
+*  - Configures the BQ76952 and its parameters for LiFePO4 battery protection
+*  - Supports cell voltage monitoring, current sensing, and charging/discharging control
 */
 
 #include "BQ76952.h"

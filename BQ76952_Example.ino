@@ -1,15 +1,16 @@
 /*
-* Description :   Custom software for the OpenBMS project by Martin Jäger, Lead Developer & Founder | Libre Solar
-* Author      :   James Fotherby
-* Date        :   27/11/2024
+* Description :   Custom BMS firmware for the Arduino platform
+* Author      :   Santosh Kumar
+* Date        :   09/10/2026
 * License     :   MIT
-* This code is published as open source software. Feel free to share/modify.
+* This code is developed for the BMS project using Arduino IDE.
 *
 *
-*  - This example runs on the ESP32-C3 on the OpenBMS hardware. Current sense resistor = 300uR 
-*  - Configures the BQ76952 and all of its parameters to be suitable for a 16S LiFePO4 315Ah home battery system powering a 5000W Vitron inverter 
+*  - Configures the BQ76952 and its parameters for LiFePO4 battery protection
+*  - Supports cell voltage monitoring, current sensing, and charging/discharging control
 */
-//d:\BMS\Arduino BMS\BQ76952\src\BQ76952.cpp d:\BMS\Arduino BMS\BQ76952\src\BQ76952.h
+// BQ76952.cpp / BQ76952.h
+
 #include <Wire.h>
 #include <BQ76952.h>
 
